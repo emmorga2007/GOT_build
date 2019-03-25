@@ -120,10 +120,23 @@ main {
 	font-size: 2em;
 }
 
-
-
 video {
 	width: 80%;
 	margin-top: 10%;
 	border: thin solid #949393;
+}
+
+.house-name { 
+	font-size: 2rem;
+	letter-spacing: 1px;
+	margin-top:40px
+}
+
+.house-info {
+	margin: 30px auto 0 auto;
+	color: white;
+	width: 70%;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	text-align: left;
 }
