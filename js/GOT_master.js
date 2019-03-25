@@ -39,10 +39,11 @@
 
 		// this is the total distance the images need to move as a pixel value
 		// dataset.offset is coming from each shield we click on 
-		totalOffset = this.dataset.offset * offSet + "px";
+		totalOffset = this.dataset.offset * offSet;// + "px";
 
 		// set the style (CSS will animate this for us)
-		banners.style.right = totalOffset;
+		//banners.style.right = totalOffset;
+		TweenMax.to(banners, 0.8, { right: totalOffset });
 	}
 
 	//sigils.forEach(sigil => sigil.addEventListener('click', openLightbox));
